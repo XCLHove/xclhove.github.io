@@ -1,0 +1,31 @@
+on: push
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: 打包
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 读取仓库内容
+        uses: actions/checkout@v4
+
+      - name: 安装node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 构建
+        run: npm run docs:build
+
+      - name: 部署静态文件
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 将dist目录
+          folder: dist
+          # 推送到gh-pages分支
+          branch: gh-pages
