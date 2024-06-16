@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a3 as r}from"./chunks/framework.ClEwN3w8.js";const m=JSON.parse('{"title":"工具","description":"","frontmatter":{},"headers":[],"relativePath":"工具.md","filePath":"工具.md"}'),o={name:"工具.md"},n=r("",7),s=[n];function i(p,c,l,h,_,d){return a(),t("div",null,s)}const u=e(o,[["render",i]]);export{m as __pageData,u as default};
