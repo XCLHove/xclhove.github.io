@@ -55,6 +55,11 @@
           },
           {
             'theme': 'alt',
+            'text': 'vmrp(game)',
+            'link': 'https://mrp.xclhove.top',
+          },
+          {
+            'theme': 'alt',
             'text': 'xfile',
             'link': 'https://xfile.xclhove.top',
           },
