@@ -82,7 +82,7 @@
       {
         'icon': { 'src': '/icon/email.svg' },
         'title': '邮箱',
-        'details': '2959169303@qq.com',
+        'details': 'xclhove@qq.com',
       },
     ],
 }
