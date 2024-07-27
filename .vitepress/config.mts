@@ -6,10 +6,11 @@ const navigations = [
   { text: '后端', link: '/后端' },
   { text: '运维', link: '/运维' },
   { text: '工具', link: '/工具' },
+  { text: '编码', link: '/编码' },
 ]
 
 export default defineConfig({
-  lang: 'zh-CN',
+  lang: 'zh',
   srcDir: './src',
   outDir: './dist',
   cacheDir: './cache',
@@ -21,25 +22,40 @@ export default defineConfig({
   },
   title: 'XCLHove的神秘空间',
   description:
-    '个人博客 & 站点导航 & Java & TS & SpringBoot & Vue & Electron & Nuxt',
+    '个人博客 & 站点导航',
   head: [['link', { rel: 'icon', href: '/XCLHove.jpg' }]],
   themeConfig: {
     search: {
       provider: 'local',
     },
-
     nav: navigations,
-
     sidebar: [
       {
-        text: '首页',
+        text: '全局导航',
         items: navigations,
       },
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xclhove' },
-      { icon: 'github', link: 'https://github.xclhove.top/xclhove' },
+      {
+        icon: {
+          svg: '<img src="/icon/gitee.svg" alt="gitee.svg" height="20" width="20" />'
+        },
+        link: 'https://gitee.com/XCLHove'
+      },
     ],
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    footer: {
+      copyright: '<a href="https://github.xclhove.top/XCLHove/xclhove.github.io/blob/master/LICENSE" target="_blank">Copyright © 2024-present XCLHove</a>'
+    },
+    darkModeSwitchLabel: "深色模式",
+    sidebarMenuLabel: "菜单",
+    returnToTopLabel: "返回顶部",
+    outline: {
+      label: '页面导航'
+    }
   },
 })
