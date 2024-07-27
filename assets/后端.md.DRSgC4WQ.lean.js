@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as r,a3 as t}from"./chunks/framework.ClEwN3w8.js";const _=JSON.parse('{"title":"后端","description":"","frontmatter":{},"headers":[],"relativePath":"后端.md","filePath":"后端.md"}'),o={name:"后端.md"},i=t("",15),s=[i];function n(l,h,p,d,c,b){return r(),e("div",null,s)}const u=a(o,[["render",n]]);export{_ as __pageData,u as default};
