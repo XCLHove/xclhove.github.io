@@ -80,6 +80,12 @@
         'link': 'https://gitee.com/XCLHove',
       },
       {
+        'icon': { 'src': '/icon/bilibili.svg' },
+        'title': 'BiliBili',
+        'details': 'BiliBili个人主页',
+        'link': 'https://space.bilibili.com/388148652',
+      },
+      {
         'icon': { 'src': '/icon/email.svg' },
         'title': '邮箱',
         'details': 'xclhove@qq.com',

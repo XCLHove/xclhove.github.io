@@ -43,6 +43,12 @@ export default defineConfig({
         },
         link: 'https://gitee.com/XCLHove'
       },
+      {
+        icon: {
+          svg: '<img src="/icon/bilibili.svg" alt="bilibili.svg" height="20" width="20" />'
+        },
+        link: 'https://space.bilibili.com/388148652'
+      },
     ],
     docFooter: {
       prev: '上一页',
