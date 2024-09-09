@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 const navigations = [
   { text: '首页', link: '/' },
+  { text: '个人项目', link: '/个人项目' },
   { text: '前端', link: '/前端' },
   { text: '后端', link: '/后端' },
   { text: '运维', link: '/运维' },
