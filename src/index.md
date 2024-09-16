@@ -15,13 +15,8 @@
           },
           {
             'theme': 'brand',
-            'text': 'Github镜像站(东京)',
+            'text': 'Github镜像站',
             'link': 'https://github.xclhove.top',
-          },
-          {
-            'theme': 'brand',
-            'text': 'Github镜像站(香港)',
-            'link': 'https://github2.xclhove.top',
           },
           {
             'theme': 'brand',
