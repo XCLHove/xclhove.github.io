@@ -1,13 +1,22 @@
 {
+  "version": "1.250215.211438",
   "name": "xclhove.github.io",
   "scripts": {
+    "dev": "npm run docs:dev",
+    "build": "node npm-scripts/build.cjs",
+    "build & preview": "npm run build && npm run docs:preview",
+    "format": "npx prettier . --write",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview",
-    "prettier": "npx prettier . --write"
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "@types/node": "^22.13.4",
+    "less": "^4.2.2",
     "prettier": "^3.2.5",
     "vitepress": "^1.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
   }
 }
