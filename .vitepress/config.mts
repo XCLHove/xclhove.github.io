@@ -8,7 +8,6 @@ const navigations = [
   { text: '运维', link: '/运维' },
   { text: '工具', link: '/工具' },
   { text: '编码', link: '/编码' },
-  { text: '笔记', link: '/笔记' },
 ]
 
 export default defineConfig({

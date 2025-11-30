@@ -8,83 +8,20 @@
       'tagline': '个人博客 & 站点导航',
       'actions':
         [
-          {
-            'theme': 'brand',
-            'text': 'xnote',
-            'link': 'https://xnote.xclhove.top',
-          },
-          {
-            'theme': 'brand',
-            'text': 'Github镜像站',
-            'link': 'https://github.xclhove.top',
-          },
-          {
-            'theme': 'brand',
-            'text': 'ChatGPT',
-            'link': 'https://gpt.xclhove.top',
-          },
-          {
-            'theme': 'brand',
-            'text': 'zfile',
-            'link': 'https://zfile.xclhove.top',
-          },
-          {
-            'theme': 'alt',
-            'text': 'alist',
-            'link': 'https://alist.xclhove.top',
-          },
-          {
-            'theme': 'alt',
-            'text': 'Google镜像站',
-            'link': 'https://google.xclhove.top',
-          },
-          {
-            'theme': 'alt',
-            'text': 'it-tools',
-            'link': 'https://it-tools.xclhove.top',
-          },
-          {
-            'theme': 'alt',
-            'text': 'unlock-music',
-            'link': 'https://unlock-music.xclhove.top',
-          },
-          {
-            'theme': 'alt',
-            'text': 'vmrp(game)',
-            'link': 'https://mrp.xclhove.top',
-          },
-          {
-            'theme': 'alt',
-            'text': 'xfile',
-            'link': 'https://xfile.xclhove.top',
-          },
+          { 'theme': 'brand', 'text': 'xnote', 'link': 'https://xnote.xclhove.top' },
+          { 'theme': 'brand', 'text': 'Github镜像站', 'link': 'https://github.xclhove.top' },
+          { 'theme': 'brand', 'text': 'zfile', 'link': 'https://zfile.xclhove.top' },
+          { 'theme': 'alt', 'text': 'it-tools', 'link': 'https://it-tools.xclhove.top' },
+          { 'theme': 'alt', 'text': 'unlock-music', 'link': 'https://unlock-music.xclhove.top' },
+          { 'theme': 'alt', 'text': 'vmrp(game)', 'link': 'https://mrp.xclhove.top' },
         ],
     },
   'features':
     [
-      {
-        'icon': { 'src': '/icon/github.svg' },
-        'title': 'Github',
-        'details': 'Github个人主页',
-        'link': 'https://github.com/xclhove',
-      },
-      {
-        'icon': { 'src': '/icon/gitee.svg' },
-        'title': 'gitee',
-        'details': 'gitee个人主页',
-        'link': 'https://gitee.com/XCLHove',
-      },
-      {
-        'icon': { 'src': '/icon/bilibili.svg' },
-        'title': 'BiliBili',
-        'details': 'BiliBili个人主页',
-        'link': 'https://space.bilibili.com/388148652',
-      },
-      {
-        'icon': { 'src': '/icon/email.svg' },
-        'title': '邮箱',
-        'details': 'xclhove@qq.com',
-      },
+      { 'icon': { 'src': '/icon/github.svg' }, 'title': 'Github', 'details': 'Github个人主页', 'link': 'https://github.com/xclhove' },
+      { 'icon': { 'src': '/icon/gitee.svg' }, 'title': 'gitee', 'details': 'gitee个人主页', 'link': 'https://gitee.com/XCLHove' },
+      { 'icon': { 'src': '/icon/bilibili.svg' }, 'title': 'BiliBili', 'details': 'BiliBili个人主页', 'link': 'https://space.bilibili.com/388148652' },
+      { 'icon': { 'src': '/icon/email.svg' }, 'title': '邮箱', 'details': 'xclhove@qq.com' },
     ],
 }
 ---
