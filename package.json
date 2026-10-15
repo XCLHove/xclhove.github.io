@@ -1,5 +1,5 @@
 {
-  "version": "1.261015.153932",
+  "version": "1.261015.154927",
   "name": "xclhove.github.io",
   "scripts": {
     "dev": "npm run docs:dev",
