@@ -1,1 +1,0 @@
-import{_ as r,o as t,c as e,ag as s}from"./chunks/framework.OvD5kfkl.js";const m=JSON.parse('{"title":"后端","description":"","frontmatter":{},"headers":[],"relativePath":"后端.md","filePath":"后端.md"}'),o={name:"后端.md"};function i(h,a,p,l,n,b){return t(),e("div",null,[...a[0]||(a[0]=[s("",59)])])}const c=r(o,[["render",i]]);export{m as __pageData,c as default};
