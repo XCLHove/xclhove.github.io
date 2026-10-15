@@ -8,8 +8,7 @@
       'tagline': '个人博客 & 站点导航',
       'actions':
         [
-          { 'theme': 'brand', 'text': 'xnote', 'link': 'https://xnote.xclhove.top' },
-          { 'theme': 'brand', 'text': 'Github镜像站', 'link': 'https://github.xclhove.top' },
+          { 'theme': 'brand', 'text': 'note', 'link': 'https://note.xclhove.top' },
           { 'theme': 'brand', 'text': 'zfile', 'link': 'https://zfile.xclhove.top' },
           { 'theme': 'alt', 'text': 'it-tools', 'link': 'https://it-tools.xclhove.top' },
           { 'theme': 'alt', 'text': 'unlock-music', 'link': 'https://unlock-music.xclhove.top' },

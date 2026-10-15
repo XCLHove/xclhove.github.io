@@ -1,10 +1,11 @@
 {
-  "version": "1.251130.153350",
+  "version": "1.261015.153932",
   "name": "xclhove.github.io",
   "scripts": {
     "dev": "npm run docs:dev",
     "build": "node npm-scripts/build.cjs",
     "build & preview": "npm run build && npm run docs:preview",
+    "commit": "node npm-scripts/commit.cjs",
     "format": "npx prettier . --write",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
