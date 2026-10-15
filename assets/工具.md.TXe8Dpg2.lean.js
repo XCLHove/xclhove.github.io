@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as r,ag as o}from"./chunks/framework.OvD5kfkl.js";const d=JSON.parse('{"title":"工具","description":"","frontmatter":{},"headers":[],"relativePath":"工具.md","filePath":"工具.md"}'),n={name:"工具.md"};function s(i,a,p,l,h,c){return e(),r("div",null,[...a[0]||(a[0]=[o("",8)])])}const f=t(n,[["render",s]]);export{d as __pageData,f as default};
